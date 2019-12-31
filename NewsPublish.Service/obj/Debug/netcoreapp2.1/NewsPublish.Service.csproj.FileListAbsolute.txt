@@ -1,0 +1,12 @@
+D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Service\bin\Debug\netcoreapp2.1\NewsPublish.Service.deps.json
+D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Service\bin\Debug\netcoreapp2.1\NewsPublish.Service.dll
+D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Service\obj\Debug\netcoreapp2.1\NewsPublish.Service.csprojAssemblyReference.cache
+D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Service\obj\Debug\netcoreapp2.1\NewsPublish.Service.csproj.CoreCompileInputs.cache
+D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Service\obj\Debug\netcoreapp2.1\NewsPublish.Service.AssemblyInfoInputs.cache
+D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Service\obj\Debug\netcoreapp2.1\NewsPublish.Service.AssemblyInfo.cs
+D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Service\bin\Debug\netcoreapp2.1\NewsPublish.Service.pdb
+D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Service\bin\Debug\netcoreapp2.1\NewsPublish.Model.dll
+D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Service\bin\Debug\netcoreapp2.1\NewsPublish.Model.pdb
+D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Service\obj\Debug\netcoreapp2.1\NewsPublish.Service.csproj.CopyComplete
+D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Service\obj\Debug\netcoreapp2.1\NewsPublish.Service.dll
+D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Service\obj\Debug\netcoreapp2.1\NewsPublish.Service.pdb
