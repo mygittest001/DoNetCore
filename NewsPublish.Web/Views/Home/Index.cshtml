@@ -144,7 +144,7 @@
             }
         });
     }
-
+    //获取最新评论新闻
     function getTopCommentNews() {
         $.ajax({
             type: 'get',
@@ -162,6 +162,7 @@
             }
         });
     }
+    //搜索一条新闻
     function searchOneNews() {
         var keyword = $("#keyword").val();
         if (keyword != "" && keyword != null) {
