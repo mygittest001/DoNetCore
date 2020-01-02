@@ -6,3 +6,11 @@ D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Model\obj\Debug\netcorea
 D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Model\obj\Debug\netcoreapp2.1\NewsPublish.Model.AssemblyInfo.cs
 D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Model\obj\Debug\netcoreapp2.1\NewsPublish.Model.dll
 D:\project\2019\网易云课堂\NewsPublish\NewsPublish.Model\obj\Debug\netcoreapp2.1\NewsPublish.Model.pdb
+D:\project\2019\网易云课堂\GitPro\NewsPublish.Model\bin\Debug\netcoreapp2.1\NewsPublish.Model.deps.json
+D:\project\2019\网易云课堂\GitPro\NewsPublish.Model\bin\Debug\netcoreapp2.1\NewsPublish.Model.dll
+D:\project\2019\网易云课堂\GitPro\NewsPublish.Model\bin\Debug\netcoreapp2.1\NewsPublish.Model.pdb
+D:\project\2019\网易云课堂\GitPro\NewsPublish.Model\obj\Debug\netcoreapp2.1\NewsPublish.Model.csproj.CoreCompileInputs.cache
+D:\project\2019\网易云课堂\GitPro\NewsPublish.Model\obj\Debug\netcoreapp2.1\NewsPublish.Model.AssemblyInfoInputs.cache
+D:\project\2019\网易云课堂\GitPro\NewsPublish.Model\obj\Debug\netcoreapp2.1\NewsPublish.Model.AssemblyInfo.cs
+D:\project\2019\网易云课堂\GitPro\NewsPublish.Model\obj\Debug\netcoreapp2.1\NewsPublish.Model.dll
+D:\project\2019\网易云课堂\GitPro\NewsPublish.Model\obj\Debug\netcoreapp2.1\NewsPublish.Model.pdb

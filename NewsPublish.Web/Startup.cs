@@ -58,6 +58,7 @@ namespace NewsPublish.Web
 
             app.UseMvc(routes =>
             {
+                //新建域Area添加新域的路由
                 routes.MapRoute(
                     name: "areas",
                     template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"

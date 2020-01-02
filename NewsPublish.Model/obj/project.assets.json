@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\2019\\网易云课堂\\NewsPublish\\NewsPublish.Model\\NewsPublish.Model.csproj",
+      "projectUniqueName": "D:\\project\\2019\\网易云课堂\\GitPro\\NewsPublish.Model\\NewsPublish.Model.csproj",
       "projectName": "NewsPublish.Model",
-      "projectPath": "D:\\project\\2019\\网易云课堂\\NewsPublish\\NewsPublish.Model\\NewsPublish.Model.csproj",
+      "projectPath": "D:\\project\\2019\\网易云课堂\\GitPro\\NewsPublish.Model\\NewsPublish.Model.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\2019\\网易云课堂\\NewsPublish\\NewsPublish.Model\\obj\\",
+      "outputPath": "D:\\project\\2019\\网易云课堂\\GitPro\\NewsPublish.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

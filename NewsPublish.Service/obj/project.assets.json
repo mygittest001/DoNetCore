@@ -3490,11 +3490,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\2019\\网易云课堂\\NewsPublish\\NewsPublish.Service\\NewsPublish.Service.csproj",
+      "projectUniqueName": "D:\\project\\2019\\网易云课堂\\GitPro\\NewsPublish.Service\\NewsPublish.Service.csproj",
       "projectName": "NewsPublish.Service",
-      "projectPath": "D:\\project\\2019\\网易云课堂\\NewsPublish\\NewsPublish.Service\\NewsPublish.Service.csproj",
+      "projectPath": "D:\\project\\2019\\网易云课堂\\GitPro\\NewsPublish.Service\\NewsPublish.Service.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\2019\\网易云课堂\\NewsPublish\\NewsPublish.Service\\obj\\",
+      "outputPath": "D:\\project\\2019\\网易云课堂\\GitPro\\NewsPublish.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3513,8 +3513,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\project\\2019\\网易云课堂\\NewsPublish\\NewsPublish.Model\\NewsPublish.Model.csproj": {
-              "projectPath": "D:\\project\\2019\\网易云课堂\\NewsPublish\\NewsPublish.Model\\NewsPublish.Model.csproj"
+            "D:\\project\\2019\\网易云课堂\\GitPro\\NewsPublish.Model\\NewsPublish.Model.csproj": {
+              "projectPath": "D:\\project\\2019\\网易云课堂\\GitPro\\NewsPublish.Model\\NewsPublish.Model.csproj"
             }
           }
         }

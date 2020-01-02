@@ -4,40 +4,62 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using NewsPublish.Model.Response;
+using NewsPublish.Service;
 using NewsPublish.Web.Models;
 
 namespace NewsPublish.Web.Controllers
 {
     public class HomeController : Controller
     {
+        private NewsService _newsService;
+        private BannerService _bannerService;
+
+
+        public HomeController(NewsService newsService,BannerService bannerService)
+        {
+            this._newsService = newsService;
+            this._bannerService = bannerService;
+        }
         public IActionResult Index()
         {
-            return View();
+            ViewData["Title"] = "首页";
+            return View(_newsService.GetNewsClassifyList());
+        }
+        [HttpGet]
+        public JsonResult GetBanner()
+        {
+            return Json(_bannerService.GetBannerList());
+        }
+        [HttpGet]
+        public JsonResult GetTotalNews()
+        {
+            return Json(_newsService.GetNewsCount(x=>true));
         }
 
-        public IActionResult About()
+        [HttpGet]
+        public JsonResult GetHomeNews()
         {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
+            return Json(_newsService.GetNewsList(x=>true,7));
         }
 
-        public IActionResult Contact()
+        [HttpGet]
+        public JsonResult GetTopCommentNews()
         {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
+            return Json(_newsService.GetNewCommentNewsList(x=>true,6));
         }
 
-        public IActionResult Privacy()
+        [HttpGet]
+        public JsonResult SearchOneNews(string keyword)
         {
-            return View();
+            if (string.IsNullOrEmpty(keyword))
+                return Json(new ResponseModel { code=0,result="关键字不能为空"});
+           return Json(_newsService.GetSearchOneNews(x=>x.Title.Contains(keyword)));
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public ActionResult Wrong()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
     }
 }

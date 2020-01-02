@@ -216,7 +216,7 @@ namespace NewsPublish.Service
             response.data = new List<NewsModel>();
             foreach (var model in list)
             {
-                response.data.add(new NewsModel
+                response.data.Add(new NewsModel
                 {
                     Id = model.Id,
                     NewsClassifyName = model.NewsClassify.Name,
@@ -250,7 +250,7 @@ namespace NewsPublish.Service
             response.data = new List<NewsModel>();
             foreach (var model in list)
             {
-                response.data.add(new NewsModel
+                response.data.Add(new NewsModel
                 {
                     Id = model.Id,
                     NewsClassifyName = model.NewsClassify.Name,
@@ -308,7 +308,7 @@ namespace NewsPublish.Service
             response.data = new List<NewsModel>();
             foreach (var model in newslist)
             {
-                response.data.add(new NewsModel
+                response.data.Add(new NewsModel
                 {
                     Id = model.Id,
                     NewsClassifyName = model.NewsClassify.Name,

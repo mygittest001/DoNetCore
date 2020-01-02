@@ -73,7 +73,7 @@
     <script type="text/javascript" src="/admin/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="/admin/js/H-ui.admin.js"></script>
     <script type="text/javascript">
-        var pageSize = 15;
+        var pageSize = 5;
         var pageIndex = 1;
         var currentPageCount = 0;
         var classifyId = 0;
@@ -120,9 +120,10 @@
                     };
                     pageNav.go(pageIndex, totalPage);
                     $("#news_contents").empty();
+                    debugger;
                     for (var i = 0; i < result.data.length; i++) {
                         var trData = result.data[i];
-                        var tr = '<tr class="text-c"><td>' + trData.id + '</td><td>' + trData.classifyName + '</td><td>' + trData.title + '</td><td>' + trData.contents + '</td><td>' + trData.publishDate + '</td><td>' + trData.remark + '</td><td class="f-14 user-manage"><a title="删除" href="javascript:;" onClick="del(this,' + trData.id + ')" class="ml-5" style="text-decoration:none"><i class="icon-trash"></i></a></td></tr>';
+                        var tr = '<tr class="text-c"><td>' + trData.id + '</td><td>' + trData.newsClassifyName + '</td><td>' + trData.title.substring(0,50) + '...</td><td>' + trData.contents.substring(0, 50) + '...</td><td>' + trData.publishDate + '</td><td>' + trData.remark + '</td><td class="f-14 user-manage"><a title="删除" href="javascript:;" onClick="del(this,' + trData.id + ')" class="ml-5" style="text-decoration:none"><i class="icon-trash"></i></a></td></tr>';
                         $("#news_contents").append(tr);
                     }
                     lastPage = pageIndex;
