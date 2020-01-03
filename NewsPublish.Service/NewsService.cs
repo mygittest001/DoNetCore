@@ -136,6 +136,7 @@ namespace NewsPublish.Service
                 {
                     Id = news.Id,
                     Title = news.Title,
+                    Image = news.Image,
                     NewsClassifyName = news.NewsClassify.Name,
                     Contents = news.Contents,
                     PublishDate = news.PublishDate.ToString("yyyy-MM-dd"),

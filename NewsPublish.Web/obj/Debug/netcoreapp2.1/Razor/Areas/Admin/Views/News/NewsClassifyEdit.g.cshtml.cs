@@ -52,7 +52,7 @@ namespace AspNetCore
             WriteLiteral("<!DOCTYPE HTML>\r\n<html>\r\n");
             EndContext();
             BeginContext(128, 1015, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aa68b867dc2b4c199fa1cb8ada0213f8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "966bd18fd3834bf8886a637dab1d7e5c", async() => {
                 BeginContext(134, 1002, true);
                 WriteLiteral(@"
     <meta charset=""utf-8"">
@@ -90,7 +90,7 @@ namespace AspNetCore
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(1145, 2781, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0c8d369c0df846ddb58a0bebe746a15c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b8a6a3b131944bc99ad8a0fe2618bc03", async() => {
                 BeginContext(1151, 183, true);
                 WriteLiteral("\r\n    <div class=\"pd-20\">\r\n        <div class=\"Huiform\">\r\n            <form method=\"post\" id=\"editForm\">\r\n                <table class=\"table table-bg\">\r\n                    <tbody>\r\n");
                 EndContext();

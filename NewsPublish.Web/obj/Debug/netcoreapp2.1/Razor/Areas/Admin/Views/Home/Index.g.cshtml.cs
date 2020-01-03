@@ -53,7 +53,7 @@ namespace AspNetCore
             WriteLiteral("\r\n<!DOCTYPE HTML>\r\n<html style=\"overflow-y:hidden;\">\r\n");
             EndContext();
             BeginContext(97, 1289, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "88d5902df878488bb5a0772399463a24", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c94fa55b53b74dd4b72e9542135d8294", async() => {
                 BeginContext(103, 1276, true);
                 WriteLiteral(@"
     <meta charset=""utf-8"">
@@ -91,7 +91,7 @@ namespace AspNetCore
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(1388, 2738, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "57811e3d134244ab8fc4931c6f17239d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5f720b6cd76641888c0096f19b64b920", async() => {
                 BeginContext(1418, 2701, true);
                 WriteLiteral(@"
     <header class=""Hui-header cl""> <a class=""Hui-logo l"" title=""超级管理员"">超级管理员</a> <a class=""Hui-logo-m l"" title=""超级管理员"">超级管理员</a> <span class=""Hui-userbox""><span class=""c-white"">超级管理员</span></span> <a aria-hidden=""false"" class=""Hui-nav-toggle"" id=""nav-toggle"" href=""#""></a> </header>

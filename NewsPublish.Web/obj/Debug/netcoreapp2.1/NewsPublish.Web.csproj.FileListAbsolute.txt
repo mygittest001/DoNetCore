@@ -87,3 +87,5 @@ D:\project\2019\网易云课堂\GitPro\NewsPublish.Web\obj\Debug\netcoreapp2.1\N
 D:\project\2019\网易云课堂\GitPro\NewsPublish.Web\obj\Debug\netcoreapp2.1\NewsPublish.Web.dll
 D:\project\2019\网易云课堂\GitPro\NewsPublish.Web\obj\Debug\netcoreapp2.1\NewsPublish.Web.pdb
 D:\project\2019\网易云课堂\GitPro\NewsPublish.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Wrong.g.cshtml.cs
+D:\project\2019\网易云课堂\GitPro\NewsPublish.Web\obj\Debug\netcoreapp2.1\Razor\Views\News\Detail.g.cshtml.cs
+D:\project\2019\网易云课堂\GitPro\NewsPublish.Web\obj\Debug\netcoreapp2.1\Razor\Views\News\Classify.g.cshtml.cs
